@@ -1,0 +1,15 @@
+dev:
+    uvicorn src.app:app --reload --port 8000
+
+format:
+    uv run ruff format
+    uv run ruff check --fix
+
+lint:
+    uv run ruff check
+    uv run pyright
+
+test:
+    uv run pytest
+
+ci: format lint test

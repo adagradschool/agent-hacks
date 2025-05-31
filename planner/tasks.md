@@ -1,0 +1,13 @@
+Tasks
+- Setup FastAPI App
+- Setup Healthz Endpoint
+- Add Linear Client
+    - Create Project
+    - Create Milestone
+    - Create Label
+    - Create Issue (optional Parent Ticket ID)
+- Add OpenAI Client
+    - Structured Output toy example
+    - Pydantic Model of Plan
+    - Plan Function
+    - Breakdown Function
