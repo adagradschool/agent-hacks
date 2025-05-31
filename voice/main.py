@@ -97,7 +97,7 @@ with sd.InputStream(samplerate=SR, channels=1, dtype="int16",
         audio = client.text_to_speech.convert(
             text=reply,
             voice_id=VOICE_ID,
-            model_id="eleven_multilingual_v2",
+            model_id=TTS_MODEL,
             output_format="mp3_44100_128",
         )
         play(audio)                # blocks until done
